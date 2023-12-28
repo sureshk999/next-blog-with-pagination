@@ -1,0 +1,10 @@
+/* styles/MarkdownImage.module.css */
+
+.image {
+    margin: 20px 0;
+    border-radius: 10px;
+    overflow: hidden;
+    border: solid grey
+    /* Add more styles as needed */
+  }
+  

@@ -1,0 +1,33 @@
+.header {
+    background-color: #f5f5f5; /* Light gray background */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    padding: 10px;
+  }
+
+  .nav {
+    display: flex;
+    justify-content: space-between; /* Space out nav items */
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto; /* Centering the nav */
+  }
+  
+  .navLink {
+    color: #333; /* Dark text for contrast */
+    text-decoration: none;
+    margin-left: 1rem; /* Spacing between links */
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .navLink:hover {
+    color: #0070f3; /* Highlight color on hover */
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    color: #0070f3; /* Brand color for the logo */
+    font-weight: bold;
+    text-decoration: none;
+  }
+  

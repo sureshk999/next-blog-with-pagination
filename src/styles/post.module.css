@@ -1,0 +1,15 @@
+/* post.module.css */
+
+.blogPost {
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pagination {
+    display: flex;
+    justify-content: space-between; /* Distributes space evenly between items */
+    align-items: center; /* Aligns items vertically in the center */
+    /* Add additional styling as needed, like padding or margins */
+  }
+  
