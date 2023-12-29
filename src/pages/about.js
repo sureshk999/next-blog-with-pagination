@@ -36,8 +36,18 @@ export default function Home() {
                         <Image src="/images/twitter-colour.svg" width="100" height="100" />
                     </div>
                 </Link>
-          {/* Add more cards/links as needed */}
+
          </div>
+
+         <div>
+            <h3>Where can I learn more?</h3>
+            <p> Follow along with my coding and development work at <a href="https://sureshkhirwadkar.dev">sureshkhirwadkar.dev</a></p>
+            <p> If you want to learn a little more about me <a href="https://sureshkhirwadkar.com">sureshkhirwadkar.com</a></p>
+            <p> Check out my medical site at <a href="https://drsuresh.com.au">drsuresh.com.au</a></p>
+            <p> I have a podcast! <a href="https://themeatmedic.com">Click Here</a></p>
+         </div>
+
+
         </main>
     </>
 
