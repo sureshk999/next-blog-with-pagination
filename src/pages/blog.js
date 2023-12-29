@@ -83,13 +83,13 @@ const HomePage = ({ posts, currentPage, numOfPages }) => {
       {/* Pagination Controls */}
       <div className={styles.pagination}>
         {currentPage > 1 && (
-          <Link href={`/posts/page${currentPage - 1}`}>
+          <Link href={`/blog/page${currentPage - 1}`}>
             <p>Previous Page</p>
           </Link>
         )}
         <span> Page {currentPage} of {numOfPages} </span>
         {currentPage < numOfPages && (
-          <Link href={`/posts/page${currentPage + 1}`}>
+          <Link href={`/blog/page${currentPage + 1}`}>
             <p>Next Page</p>
           </Link>
         )}
