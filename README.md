@@ -14,7 +14,7 @@ Welcome to the GitHub repository for my custom-built boilerplate blog with pagin
 -   **Pagination on Blog Pages and Individual Posts**: This feature is a highlight of the template, ensuring easy navigation and a clean, user-friendly interface.
 -   **Image Optomisation with Next/Image**: Automatic optomisation of images through next/image.
 
-![SuperFast](/images/ss.jpg)
+![SuperFast](https://sureshkhirwadkar.dev/images/ss.jpg)
 
 ## Dependencies
 
