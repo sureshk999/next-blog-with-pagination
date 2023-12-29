@@ -12,6 +12,7 @@ Welcome to the GitHub repository for my custom-built boilerplate blog with pagin
 -   **`_app.js` Routing and Layout**: Efficient routing and layout management with Next.js's `_app.js`.
 -   **Basic Cards Included**: Pre-designed card components for displaying blog posts attractively.
 -   **Pagination on Blog Pages and Individual Posts**: This feature is a highlight of the template, ensuring easy navigation and a clean, user-friendly interface.
+-   **Image Optomisation with Next/Image**: Automatic optomisation of images through next/image.
 
 ## Dependencies
 
