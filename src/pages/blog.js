@@ -62,7 +62,7 @@ const HomePage = ({ posts, currentPage, numOfPages }) => {
         {posts.map((post) => (
           <li key={post.slug} className={styles.postItem}>
             <Link href={`/posts/${post.slug}`}>
-            <div className={styles.blogCard} style={{ width: '400px' }}>
+            <div className={styles.blogCard}>
               <p className={styles.postTitle}>{post.frontmatter.title}</p>
               <p className={styles.postDate}>{post.frontmatter.date}</p>
               <div className={styles.imageContainer}>
@@ -83,13 +83,13 @@ const HomePage = ({ posts, currentPage, numOfPages }) => {
       {/* Pagination Controls */}
       <div className={styles.pagination}>
         {currentPage > 1 && (
-          <Link href={`/blog/page${currentPage - 1}`}>
+          <Link href={`/posts/page${currentPage - 1}`}>
             <p>Previous Page</p>
           </Link>
         )}
         <span> Page {currentPage} of {numOfPages} </span>
         {currentPage < numOfPages && (
-          <Link href={`/blog/page${currentPage + 1}`}>
+          <Link href={`/posts/page${currentPage + 1}`}>
             <p>Next Page</p>
           </Link>
         )}

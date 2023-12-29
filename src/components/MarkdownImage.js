@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 const MarkdownImage = ({ src, alt }) => {
   const aspectRatio = 2 / 3;
-  const width = 640; 
+  const width = 500; 
   const height = width * aspectRatio;
   const blurDataURL = 'data:image/svg+xml;base64,...'; // base64-encoded image
 

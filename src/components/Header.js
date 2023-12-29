@@ -2,7 +2,7 @@ import Link from 'next/link';
 import styles from '@/styles/header.module.css';
 
 export default function Header() {
-  return (
+  return ( 
     <header className={styles.header}>
       <nav className={styles.nav}>
         <Link href="/">
@@ -18,6 +18,11 @@ export default function Header() {
           <Link href="/about">
             <span className={styles.navLink}>About</span>
           </Link>
+          <Link target="_blank" href="https://github.com/sureshk999/blog-with-paginate.git">
+            <span className={styles.navLink}>GitHub</span>
+          </Link>
+
+          
           {/* Add more navigation links as needed */}
         </div>
       </nav>

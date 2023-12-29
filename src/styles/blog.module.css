@@ -25,6 +25,8 @@
   margin-bottom: 1rem;
   border-radius: 8px;
   text-align: center; /* Center post items horizontally */
+
+
 }
 
 .postLink {
@@ -51,11 +53,14 @@
 
 .blogCard {
   width: 400px;
+  max-width: 70%;
   border: 1px solid #e0e0e0;
   padding: 20px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   background-color: #fff;
   border-radius: 4px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .postTitle {

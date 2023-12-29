@@ -7,7 +7,7 @@ body {
   color: var(--text-color);
   margin: 0;
   padding: 0;
-}
+} 
 
 /* Inherit fonts for inputs and buttons */
 input,
@@ -17,16 +17,6 @@ select {
   font: inherit;
 }
 
-/* Remove all animations, transitions for people that prefer not to see them */
-@media (prefers-reduced-motion: reduce) {
-  * {
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
-    scroll-behavior: auto !important;
-  }
-}
-
 /* Add your primary and secondary colors */
 :root {
   --primary-color: #0070f3; /* Primary brand color */
@@ -34,4 +24,20 @@ select {
   --background-color: #f0f0f0; /* Background color */
   --text-color: #333; /* Primary text color */
   --text-color-secondary: #555; /* Secondary text color */
+}
+
+main {
+  width: 50%;
+  max-width: 750px;
+  min-width: 310px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p {
+  font-size:medium;
+}
+
+a {
+  text-decoration: none;
 }

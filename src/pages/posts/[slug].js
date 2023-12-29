@@ -56,11 +56,11 @@ export async function getStaticProps({ params: { slug } }) {
 const Post = ({ frontmatter, mdxSource, prevPost, nextPost }) => {
   const { title, heroImage, date } = frontmatter;
   const aspectRatio = 2 / 3;
-  const width = 640;
+  const width = 600;
   const height = width * aspectRatio;
 
   return (
-    <>
+    <main>
 
     <div className={styles.blogPost}>
       <div>
@@ -97,7 +97,7 @@ const Post = ({ frontmatter, mdxSource, prevPost, nextPost }) => {
           </span>
       </div>      
     </div>
-    </>
+    </main>
   );
 };
 

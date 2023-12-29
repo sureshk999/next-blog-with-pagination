@@ -1,11 +1,5 @@
 /* post.module.css */
 
-.blogPost {
-    width: 750px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .pagination {
     display: flex;
     justify-content: space-between; /* Distributes space evenly between items */
