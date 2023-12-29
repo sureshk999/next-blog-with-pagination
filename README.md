@@ -2,10 +2,10 @@
 
 Welcome to the GitHub repository for my custom-built boilerplate blog with pagination, designed using React and Next.js. This project is tailored for developers and content creators seeking a streamlined, efficient blogging platform that's easy to deploy and manage.
 
-
 ## Features
 
 -   **Boilerplate Template**: A ready-to-use template for setting up a blog quickly and efficiently.
+-   **Simple File Structure**: No complicated mess, files all over the place, or complex linking. Very easy to get started.
 -   **Very Few Dependencies**: Minimal dependencies to keep the project lightweight and manageable.
 -   **Superfast**: Leveraging Next.js for blazing fast performance.
 -   **Basic CSS Styling Included**: Comes with basic styling to get you started, which you can easily expand upon.
@@ -14,13 +14,15 @@ Welcome to the GitHub repository for my custom-built boilerplate blog with pagin
 -   **Pagination on Blog Pages and Individual Posts**: This feature is a highlight of the template, ensuring easy navigation and a clean, user-friendly interface.
 -   **Image Optomisation with Next/Image**: Automatic optomisation of images through next/image.
 
+![SuperFast](/images/ss.jpg)
+
 ## Dependencies
 
 The project relies on the following dependencies:
 
-jsonCopy code
+```
 
-`"dependencies": {
+"dependencies": {
   "@mdx-js/loader": "^3.0.0",
   "@next/mdx": "^14.0.4",
   "gray-matter": "^4.0.3",
@@ -28,12 +30,17 @@ jsonCopy code
   "next-mdx-remote": "^4.4.1",
   "react": "^18",
   "react-dom": "^18"
-}` 
+}
+
+```
 
 These dependencies include essential packages for MDX support, content parsing, and the core React and Next.js frameworks.
 
 ## File Tree
 
+Simple File Structure
+
+```
 src                                                   
 ├─ _content                                           
 │  ├─ A-Journey-Through-the-Mountains.mdx             
@@ -72,6 +79,7 @@ src
    ├─ header.module.css                               
    ├─ page.module.css                                 
    └─ post.module.css                                 
+```
 
 ## How to Use This Repository
 
@@ -82,38 +90,35 @@ This repository contains the code for a blog template with pagination, utilizing
 To clone the repository and run it on your local machine, follow these steps:
 
 1.  **Clone the Repository**:
-    
-    bashCopy code
-    
+     
     `git clone https://github.com/sureshk999/blog-with-paginate.git` 
     
 2.  **Navigate to the Repository Folder**:
     
-    bashCopy code
     
     `cd blog-with-paginate` 
     
 3.  **Install Dependencies**: Make sure you have Node.js installed, then run:
     
-    bashCopy code
+
     
     `npm install` 
     
     or if you use Yarn:
     
-    bashCopy code
+
     
     `yarn install` 
     
 4.  **Run the Application**:
     
-    bashCopy code
+
     
     `npm run dev` 
     
     or with Yarn:
     
-    bashCopy code
+
     
     `yarn dev` 
     
@@ -137,3 +142,7 @@ If you find this template useful and would like to support my work, please consi
 ## Photos
 From Unsplash
 Credit is attributed to the original photographers
+
+## Follow Me
+
+Follow my work at [sureshkhirwadkar.dev](https://sureshkhirwadkar.dev)

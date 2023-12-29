@@ -67,6 +67,10 @@ export default function Home() {
           </Link>
           {/* Add more cards/links as needed */}
         </div>
+        <h3>Super Lightweight and Blazing Fast</h3>
+        <div>
+          <Image src="/images/ss.jpg" width="640" height="497" />
+        </div>
 
 
       </main>
